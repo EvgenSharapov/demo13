@@ -1,1 +1,1 @@
-web: java -jar lib-0.0.1-SNAPSHOT.war
+web: java -jar lib-0.0.1-SNAPSHOT.war --server.port=${PORT:8080}
