@@ -17,3 +17,5 @@ COPY config/application.properties /config/
 CMD ["java", "-jar", "lib-0.0.1-SNAPSHOT.war", \
      "--spring.config.location=file:/config/application.properties", \
      "--server.port=${PORT}"]
+
+
